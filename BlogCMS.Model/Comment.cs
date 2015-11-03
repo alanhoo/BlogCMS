@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace BlogCMS.Model
 {
-    class Comment
+    public class Comment
     {
+        public int CommentID { get; set; }
+        public int ReplyToId { get; set; }
+
+        public string UserName { get; set; }
+        public DateTime DatePosted { get; set; }
+        public string TheComment { get; set; }
     }
 }

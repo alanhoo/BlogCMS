@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace BlogCMS.Model
 {
-    class HTML
+    public class HTML
     {
+        public int HtmlID { get; set; }
+        public string BlockName { get; set; }
+        public string CodeBlock { get; set; }
     }
 }

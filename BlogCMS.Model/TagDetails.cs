@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace BlogCMS.Model
 {
-    class TagDetails
+
+    public class TagDetails
     {
+        public int TagDetailsID { get; set; }
+        public int BlogID { get; set; }
+        public int TagID { get; set; }
     }
 }

@@ -44,8 +44,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Action.cs" />
+    <Compile Include="Blog.cs" />
     <Compile Include="Category.cs" />
+    <Compile Include="Comment.cs" />
+    <Compile Include="Content.cs" />
+    <Compile Include="History.cs" />
+    <Compile Include="HTML.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Role.cs" />
+    <Compile Include="Status.cs" />
+    <Compile Include="Tag.cs" />
+    <Compile Include="TagDetails.cs" />
+    <Compile Include="User.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
