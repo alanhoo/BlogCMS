@@ -20,5 +20,7 @@ namespace BlogCMS.Model
         public DateTime DatePosted { get; set; }
         public DateTime DateExpired { get; set; }
         public string Title { get; set; }
+
+        public string BlogContent { get; set; }
     }
 }

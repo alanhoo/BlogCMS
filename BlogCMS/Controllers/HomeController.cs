@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using BlogCMS.Data;
+
 
 namespace BlogCMS.Controllers
 {
@@ -10,7 +12,10 @@ namespace BlogCMS.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            var bRepo = new BlogRepo();
+            var list = bRepo.GetAllBlogPosts();
+
+            return View(list);
         }
 
         public ActionResult Test()
